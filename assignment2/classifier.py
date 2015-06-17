@@ -12,9 +12,24 @@ with open('Sentiment Analysis Dataset.csv','rb') as datasetfile:
 			dataset.append((row[3], "negative"))
 
 # Feature functions go here:
+# def tweet_moodwords(tweet):
+# 	resultdict = {}
+# 	happywords = ['happy','joy','bliss']
+# 	for word in happywords:
+# 		match = re.findall(word, tweet.lower())
+# 		resultdict[word] = len(match)
+# 	return resultdict
+
+# def cleanuptweet(tweet):
+# 	return tweet.lower()
 
 def tweet_feature(tweet):
+	# tweet = cleanuptweet(tweet)
+	# moodword_dicts = tweet_moodwords(tweet)
+	# count_dict = tweet_countwords(tweet)
+
 	return {"last":tweet[-1]}
+
 
 # Feature functions end here
 # Let's create a featurelist

@@ -1,4 +1,5 @@
 import random
+from os import system
 
 # A dictionary
 # Keys: Individual words
@@ -43,7 +44,8 @@ for i in range(200):
 	if currentword[-1] == "." or currentword[-1] == ",":
 		resultstring = resultstring + "\n"
 
-print resultstring
 
+print resultstring
+# system('say -v "Alex"' + resultstring)
 
 
