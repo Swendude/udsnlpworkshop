@@ -8,3 +8,4 @@ Check out this twitterfeed: https://twitter.com/rudeman_ebooks (Made by Sjoerd D
 ## Classifier
 This is the second and final assignment, the starting framework is ready. Visit http://www.nltk.org/book/ch06.html for a complete tutorial with handy tips and tricks!
 Dataset: http://we.tl/be9J4qmZfl
+New (smaller dataset): http://we.tl/R2L8kZrvTL !!!Dont forget to change the name of the file in your python script!
